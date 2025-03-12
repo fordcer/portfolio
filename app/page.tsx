@@ -106,7 +106,7 @@ function HeroSection() {
               <Badge className="mb-4">Available for hire</Badge>
             </motion.div>
             <motion.h1 className="text-4xl md:text-6xl font-bold tracking-tight" variants={itemVariants}>
-              Hi, I'm <span className="text-primary">John Doe</span>
+              Hi, I'm <span className="text-primary">Fordcer</span>
             </motion.h1>
             <TypewriterText text="Full Stack Web Developer" />
             <motion.p className="text-muted-foreground text-lg md:text-xl max-w-md" variants={itemVariants}>
