@@ -43,10 +43,11 @@ export function ProjectsSection() {
   }, []);
 
   useEffect(() => {
-    if (inView) {
+    if (inView && !isLoading && !error) {
       controls.start("visible");
     }
-  }, [controls, inView]);
+  }, [inView, isLoading, error, controls]);
+  
 
   const containerVariants: Variants = {
     hidden: { opacity: 0 },
